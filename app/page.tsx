@@ -1,4 +1,3 @@
-// import "../styles/App.css";
 /* use client */
 import FeaturesContainer from "../src/components/FeaturesContainer";
 import Footer from "../src/components/Footer";
@@ -9,7 +8,7 @@ import ParticipateWithEaseContainer from "../src/components/ParticipateWithEaseC
 import WhatIsRadeSection from "../src/components/WhatIsRadeSection";
 import WhyBorrowFromRade from "../src/components/WhyBorrowFromRade";
 import JoinTheRadeCommunitySection from "../src/components/JoinTheRadeCommunitySection";
-
+import "../public/styles/App.css";
 const submitForm = require("../src/functions/submitForm");
 
 function MyApp() {
