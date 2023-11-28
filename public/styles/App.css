@@ -937,7 +937,7 @@ a {
     display: flex;
     right: 24px;
     top: 31px;
-    justify-content: end;
+    justify-content: flex-end;
   }
   .mobileImages {
     display: block;
