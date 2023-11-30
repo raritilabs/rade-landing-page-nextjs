@@ -1,6 +1,9 @@
 /**
  * @type {import('next').NextConfig}
  */
+
+const isProd = process.env.NODE_ENV === "production";
+
 const nextConfig = {
   output: "export",
 
@@ -12,6 +15,8 @@ const nextConfig = {
 
   // Optional: Change the output directory `out` -> `dist`
   // distDir: 'dist',
+  // Use the CDN in production and localhost for development.
+  assetPrefix: isProd ? "https://cdn.mydomain.com" : undefined,
 };
 
 module.exports = nextConfig;
