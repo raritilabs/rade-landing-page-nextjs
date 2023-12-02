@@ -16,7 +16,7 @@ const nextConfig = {
   // Optional: Change the output directory `out` -> `dist`
   // distDir: 'dist',
   // Use the CDN in production and localhost for development.
-  assetPrefix: isProd ? "https://cdn.mydomain.com" : undefined,
+  assetPrefix: undefined,
 };
 
 module.exports = nextConfig;
