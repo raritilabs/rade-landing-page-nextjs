@@ -1,9 +1,9 @@
 "use client"; // This is a client component
 import React, { useState } from "react";
 import "../../public/styles/App.css";
-import slideshow1 from "../assets/slideshow 1.png";
-import slideshow2 from "../assets/slideshow 2.png";
-import slideshow3 from "../assets/slideshow 3.svg";
+import slideshow1 from "../assets/slideshow2.svg";
+import slideshow2 from "../assets/slideshow1.svg";
+import slideshow3 from "../assets/slideshow3.svg";
 import leftArrow from "../assets/leftArrow.svg";
 import rightArrow from "../assets/rightArrow.svg";
 import Image from "next/image";
