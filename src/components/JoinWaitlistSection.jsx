@@ -26,22 +26,22 @@ const JoinWaitlistSection = () => {
       const userDataCollection = collection(db, "Newsletter");
       const userDataDocRef = doc(userDataCollection, email);
 
-      const docSnapshot = await getDoc(userDataDocRef);
+      // const docSnapshot = await getDoc(userDataDocRef);
 
-      if (!docSnapshot.exists()) {
-        await setDoc(userDataDocRef, {
-          email: email,
-          userClickedOn: serverTimestamp(),
-        });
+      // if (!docSnapshot.exists()) {
+      await setDoc(userDataDocRef, {
+        email: email,
+        userClickedOn: serverTimestamp(),
+      });
 
-        setIsEmailAdded(true);
-        setError(""); // Reset the error state
-        console.log("userData Document created and initialized!");
-      } else {
-        setIsEmailAdded(false); // Reset the state if the email already exists
-        setError("Email already exists"); // Set error if the email already exists
-        console.log("userData Document already exists, no update needed.");
-      }
+      setIsEmailAdded(true);
+      setError(""); // Reset the error state
+      console.log("userData Document created and initialized!!");
+      // } else {
+      //   setIsEmailAdded(false); // Reset the state if the email already exists
+      //   setError("Email already exists"); // Set error if the email already exists
+      //   console.log("userData Document already exists, no update needed.");
+      // }
     } catch (error) {
       setIsEmailAdded(false); // Reset the state in case of an error
       setError("Error updating user data document"); // Set error for other errors
