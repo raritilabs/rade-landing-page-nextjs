@@ -23,7 +23,7 @@ const JoinWaitlistSection = () => {
     }
 
     try {
-      const userDataCollection = collection(db, "Emails");
+      const userDataCollection = collection(db, "Newsletter");
       const userDataDocRef = doc(userDataCollection, email);
 
       const docSnapshot = await getDoc(userDataDocRef);
