@@ -4,7 +4,7 @@ import "../../public/styles/fonts.scss";
 import arrowTail from "../assets/ArrowTail.svg";
 import arrowHead from "../assets/ArrowHead.svg";
 import participateWithEaseImage from "../assets/ParticipateWithEaseImage.svg";
-import shadow from "../assets/shadow.webp";
+import shadow from "../assets/shadow.svg";
 import participateWithEaseImageInMobile from "../assets/ParticipateWithEaseImageInMobile.svg";
 import shadowImageInMobile from "../assets/shadowImageInMobile.svg";
 import Image from "next/image";
