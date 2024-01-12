@@ -68,7 +68,11 @@ button {
   margin-left: 30px;
   transition: box-shadow 0.3s ease;
 }
-
+.interestFreeLoan {
+  background: url(../../src/assets/abstractLinesSectionOne.svg);
+  background-size: cover;
+  background-position: 15% 21%;
+}
 .launchApp:hover {
   box-shadow: 0 0 10px 0 #02aab0;
   border: 1px solid #02aab0;
@@ -291,7 +295,7 @@ input:focus {
 }
 
 .interestFreeLoan {
-  margin-left: 73px;
+  padding-left: 73px;
   display: flex;
   justify-content: space-between;
   margin-bottom: -37px;
@@ -326,7 +330,7 @@ input:focus {
   justify-content: center;
 }
 .whatIsRade {
-  background: url(../../src/assets/LINES\ ABSTRACT\ section\ 4.webp);
+  background: url(../../src/assets/abstractLineSectionFour.svg);
   background-size: cover;
   background-position: 20% 50%;
 }
